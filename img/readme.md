@@ -1,1 +1,1 @@
-This fold saves the visual images.
+This folder saves the visual images.
