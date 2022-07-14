@@ -58,8 +58,8 @@ python test_otb_defense.py
 
 ~~```-v``` can be used to visualize the tracking results.~~
 
-## Demo (Not updated)
-<img src="https://github.com/joshuajss/RTAA/blob/master/demo/attack_otb100.gif" width='300'/>   <img src="https://github.com/joshuajss/RTAA/blob/master/demo/defense_otb100.gif" width='300'/><br/>
+## Demo
+<img src="https://github.com/joshuajss/rtaaplus/blob/main/img/human9_attack.gif" width='300'/>   <img src="https://github.com/joshuajss/rtaaplus/blob/main/img/human9_defense.gif" width='300'/><br/>
 <img src="https://github.com/joshuajss/rtaaplus/blob/main/img/legend.png" width='600'/><br/>
 
 ## Acknowledgement 
