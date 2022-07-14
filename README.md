@@ -37,7 +37,7 @@ Deep convolutional neural networks (CNNs) are vulnerable to adversarial attacks.
 
 ## Quick Start
 
-:herb: **The code of adversarial attack and defense will be released soon. **
+:herb: **The code of adversarial attack and defense will be released soon.**
 
 
 ## Demo
