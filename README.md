@@ -35,28 +35,10 @@ Deep convolutional neural networks (CNNs) are vulnerable to adversarial attacks.
  
 :herb: **All raw results are available.**  [[Google_drive]](https://drive.google.com/file/d/1KlL8qj36srqC8lvX7J2NlI-Ff-XDQzj3/view?usp=sharing)
 
-## Quick Start (Not updated)
+## Quick Start
+
 :herb: **The code of adversarial attack and defense will be released soon. **
-- ~~You should download the OTB2015 dataset in ```data``` folder.~~
-- ~~Please download the pretrained model in [Code_DaSiamRPN](https://github.com/foolwood/DaSiamRPN).~~
 
-~~Test the original performance on OTB2015 dataset, please using the follwing command.~~
-```
-cd DaSiamRPN/code
-python test_otb.py
-```
-~~Test the adversarial attack performance on OTB2015 dataset, please using the follwing command.~~
-```
-cd DaSiamRPN/code
-python test_otb_attack.py
-```
-~~Test the adversarial defense performance on OTB2015 dataset, please using the follwing command.~~
-```
-cd DaSiamRPN/code
-python test_otb_defense.py
-```
-
-~~```-v``` can be used to visualize the tracking results.~~
 
 ## Demo
 <img src="https://github.com/joshuajss/rtaaplus/blob/main/img/human9_attack.gif" width='300'/>   <img src="https://github.com/joshuajss/rtaaplus/blob/main/img/human9_defense.gif" width='300'/><br/>
