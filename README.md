@@ -37,7 +37,7 @@ Deep convolutional neural networks (CNNs) are vulnerable to adversarial attacks.
 
 ## Quick Start
 
-:herb: **The code of adversarial attack and defense will be released soon.**
+:herb: **The code of adversarial attack and defense on SiamRPN++ is released.**
 
 - Please follow [SiamRPN++](https://github.com/STVIR/pysot) to finish the experimental setting, including dataset, model, environment, etc.
 - First, put ```test_attack.py``` and ```test_defense.py``` into ```tools``` folder.
