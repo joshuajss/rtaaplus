@@ -39,12 +39,50 @@ Deep convolutional neural networks (CNNs) are vulnerable to adversarial attacks.
 
 :herb: **The code of adversarial attack and defense will be released soon.**
 
+- Please follow [SiamRPN++](https://github.com/STVIR/pysot) to finish the experimental setting, including dataset, model, environment, etc.
+- First, put ```test_attack.py``` and ```test_defense.py``` into ```tools``` folder.
+- Second, replace the original ```siamrpn_tracker.py``` in ```pysot/tracker``` with our new ```siamrpn_tracker.py```.
+- Note that the new ```siamrpn_tracker.py``` in this project consists of all original codes of SiamRPN++ and our new attack and defense code.
+
+
+Test the original performance on OTB100 dataset, please using the follwing command.
+```bash
+cd experiments/siamrpn_r50_l234_dwxcorr_otb
+python -u ../../tools/test.py 	\
+	--snapshot model.pth 	\ # model path
+	--dataset OTB100 	\ # dataset name
+	--config config.yaml	  # config file
+```
+
+Test the adversarial attack performance on OTB100 dataset, please using the follwing command.
+```bash
+cd experiments/siamrpn_r50_l234_dwxcorr_otb
+python -u ../../tools/test_attack.py 	\
+	--snapshot model.pth     	\ # model path
+	--dataset OTB100         	\ # dataset name
+	--config config.yaml	          # config file
+```
+
+
+Test the adversarial defense performance on OTB100 dataset, please using the follwing command.
+```bash
+cd experiments/siamrpn_r50_l234_dwxcorr_otb
+python -u ../../tools/test_defense.py 	\
+	--snapshot model.pth     	\ # model path
+	--dataset OTB100         	\ # dataset name
+	--config config.yaml	          # config file
+```
+
+- The original/attack/defense results will be saved in the current directory(results/dataset/model_name/).
+
+- ```--vis``` can be used to visualize the tracking results during attack and defense.
+
 
 ## Demo
 <img src="https://github.com/joshuajss/rtaaplus/blob/main/img/human9_attack.gif" width='300'/>   <img src="https://github.com/joshuajss/rtaaplus/blob/main/img/human9_defense.gif" width='300'/><br/>
 <img src="https://github.com/joshuajss/rtaaplus/blob/main/img/legend.png" width='600'/><br/>
 
-:herb: **All demos are available at [[video]](https://drive.google.com/file/d/1KlL8qj36srqC8lvX7J2NlI-Ff-XDQzj3/view?usp=sharing)
+:herb: **More demos are available at [[video]](https://drive.google.com/file/d/1KlL8qj36srqC8lvX7J2NlI-Ff-XDQzj3/view?usp=sharing)
  .**
 
 ## Acknowledgement 
