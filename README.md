@@ -74,7 +74,6 @@ python -u ../../tools/test_defense.py 	\
 ```
 
 - The original/attack/defense results will be saved in the current directory(results/dataset/model_name/).
-
 - ```--vis``` can be used to visualize the tracking results during attack and defense.
 
 
