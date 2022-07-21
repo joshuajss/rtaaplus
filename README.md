@@ -9,7 +9,7 @@ This work is based on [Robust Tracking against Adversarial Attacks](https://arxi
 ## Introduction
 <img src="https://github.com/joshuajss/rtaaplus/blob/main/img/pipeline.png" width='700'/><br/>
 
-Deep convolutional neural networks (CNNs) are vulnerable to adversarial attacks. 
+Deep neural networks (DNNs) are vulnerable to adversarial attacks. 
 - We study the robustness of the state-of-the-art deep trackers against adversarial attacks under both white-box and black-box settings. 
 - We propose a defense method to subtract perturbations from the input frame, which eliminates performance drops caused by adversarial attacks. 
 - We craft universal adversarial perturbations to directly inject them into every frame of video sequences, leading to a higher attack speed.
